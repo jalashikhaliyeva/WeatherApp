@@ -34,10 +34,11 @@ async function checkWeather(city) {
       weatherIcon.src = "assets/img/mist.png";
     }
     document.querySelector(".weather").style.display = "block";
-    ocument.querySelector(".error").style.display = "none";
+    document.querySelector(".error").style.display = "none";
   }
 }
 
 searchBtn.addEventListener("click", () => {
   checkWeather(searchBox.value);
+  searchBox.value = ''
 });
