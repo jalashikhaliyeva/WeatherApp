@@ -6,13 +6,14 @@
 }
 
 body {
-  background: #222;
+  background-image: url(" https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2Vic2l0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;;
 }
 
 .card {
   width: 90%;
   max-width: 470px;
-  background: linear-gradient(135deg, #00feba, #5b548a);
+  background: linear-gradient(135deg, #74e9f6, #615992);
   color: #fff;
   margin: 100px auto 0;
   border-radius: 20px;
